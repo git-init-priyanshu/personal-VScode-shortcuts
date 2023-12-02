@@ -1,0 +1,172 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+      "key": "ctrl+d",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+down",
+      "command": "-editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+z",
+      "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "ctrl+k z",
+      "command": "-workbench.action.toggleZenMode"
+    },
+    {
+      "key": "up",
+      "command": "inlineChat.focus",
+      "when": "editorTextFocus && inlineChatVisible && !accessibilityModeEnabled && !inlineChatFocused && !isEmbeddedDiffEditor && inlineChatOuterCursorPosition == 'below'"
+    },
+    {
+      "key": "up",
+      "command": "inlineChat.focus",
+      "when": "editorTextFocus && inlineChatVisible && !accessibilityModeEnabled && !inlineChatFocused && !isEmbeddedDiffEditor && inlineChatOuterCursorPosition == 'below'"
+    },
+    {
+      "key": "alt+i",
+      "command": "cursorUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "up",
+      "command": "cursorUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "alt+oem_comma",
+      "command": "cursorDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "down",
+      "command": "cursorDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "alt+j",
+      "command": "cursorLeft",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "left",
+      "command": "cursorLeft",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "alt+k",
+      "command": "cursorRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "right",
+      "command": "cursorRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+j",
+      "command": "cursorLeftSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+left",
+      "command": "cursorLeftSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+oem_comma",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+shift+down",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+k",
+      "command": "cursorRightSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+right",
+      "command": "cursorRightSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+i",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+shift+up",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "alt+l",
+      "command": "cursorWordEndRight",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "ctrl+right",
+      "command": "cursorWordEndRight",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "alt+h",
+      "command": "cursorWordLeft",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "ctrl+left",
+      "command": "cursorWordLeft",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "shift+alt+h",
+      "command": "cursorWordLeftSelect",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "ctrl+shift+left",
+      "command": "cursorWordLeftSelect",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "shift+alt+l",
+      "command": "cursorWordEndRightSelect",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "ctrl+shift+right",
+      "command": "cursorWordEndRightSelect",
+      "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+      "key": "alt+d",
+      "command": "scrollLineDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+down",
+      "command": "scrollLineDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "alt+e",
+      "command": "scrollLineUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+up",
+      "command": "scrollLineUp",
+      "when": "textInputFocus"
+    }
+  ]
+  
