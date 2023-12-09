@@ -320,7 +320,7 @@
     "when": "editorFocus || editorIsOpen"
   },
   {
-    "key": "ctrl+oem_4",
+    "key": "alt+f",
     "command": "closeFindWidget",
     "when": "editorFocus && findWidgetVisible && !isComposing"
   },
@@ -331,7 +331,27 @@
   },
   {
     "key": "escape",
-    "command": "-closeFindWidget",
+    "command": "closeFindWidget",
     "when": "editorFocus && findWidgetVisible && !isComposing"
+  },
+  {
+    "key": "ctrl+oem_comma",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
